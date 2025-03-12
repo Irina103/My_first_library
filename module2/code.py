@@ -25,3 +25,12 @@ def get_previous_word_indices(input_line):
 # result = get_previous_word_indices(input_line)
 # print(result)  # Вывод: [-1, -1, 0, 2, 3]
 
+def create_dict_from_range(start, end):
+    # Создаём словарь, где ключи и значения одинаковы, от start до end
+    return {i: i for i in range(start, end + 1)}
+
+# Пример использования
+# result = create_dict_from_range(1, 4)
+# print(result)  # Вывод: {1: 1, 2: 2, 3: 3, 4: 4}
+
+
